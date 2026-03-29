@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.signup-box{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:320px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.signup-box h2{
+    text-align:center;
+}
+
+.signup-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.signup-box button{
+    width:100%;
+    padding:10px;
+    background:#ff758c;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.signup-box button:hover{
+    background:#ff4b6e;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="signup-box">
+<h2>Sign Up</h2>
+
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email" required>
+<input type="tel" placeholder="Phone Number" required>
+<input type="password" placeholder="Password" required>
+<input type="password" placeholder="Confirm Password" required>
+
+<button type="submit">Create Account</button>
+</form>
+
+</div>
+
+</body>
+</html>
